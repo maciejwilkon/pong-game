@@ -45,7 +45,7 @@ while on:
         ball.v_bounce()
         score.p1_score += 1
         score.new_point()
-    if score.p1_score == 5 or score.p2_score == 5:
+    if score.p1_score == 8 or score.p2_score == 8:
         break
 
 
